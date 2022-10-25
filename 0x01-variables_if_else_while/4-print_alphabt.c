@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Prints the alphabet in lowercase, expect for q and e.
@@ -7,15 +8,16 @@
  */
 int main(void)
 {
-	char letter;
+	char ch = a;
 
-	for (letter = 'a' letter <= 'z' letter++)
+	while (ch <= 'z')
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		if ((ch != 'e') && (ch != 'q'))
+		{
+			putchar(ch);
+		}
+		ch++
 	}
-
 	putchar('\n');
-
 	return (0);
 }
