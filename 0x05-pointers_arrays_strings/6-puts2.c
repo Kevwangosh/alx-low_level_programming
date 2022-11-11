@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of a string
- *
+ * _puchar - print each character
  * @str: char to check
  *
  * Return: 0 is success
